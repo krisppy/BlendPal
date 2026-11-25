@@ -272,29 +272,29 @@
       "chat_model": [
         {
           "tier": "Everyday / Budget",
-          "model": "deepseek-chat",
-          "price": "Low cost",
-          "note": "Fast general Blender Q&A."
+          "model": "deepseek-flash",
+          "price": "Low cost · Fast",
+          "note": "Fast everyday Blender Q&A, Explain, and Prompt Enhance."
         },
         {
           "tier": "Complex / Pro",
-          "model": "deepseek-reasoner",
-          "price": "Reasoning tier",
-          "note": "Step-by-step troubleshooting for harder problems."
+          "model": "deepseek-v4-pro",
+          "price": "Pro tier",
+          "note": "Stronger reasoning and step-by-step troubleshooting for harder problems."
         }
       ],
       "code_model": [
         {
           "tier": "Everyday / Budget",
-          "model": "deepseek-chat",
-          "price": "Low cost",
-          "note": "Good everyday Python & shader generation."
+          "model": "deepseek-flash",
+          "price": "Low cost · Fast",
+          "note": "Fast everyday Python & shader generation."
         },
         {
           "tier": "Complex / Pro",
-          "model": "deepseek-reasoner",
-          "price": "Reasoning tier",
-          "note": "Stronger logic for complex scripts and node math."
+          "model": "deepseek-v4-pro",
+          "price": "Pro tier",
+          "note": "Stronger accuracy for complex bpy scripts, shaders, and Geometry Nodes."
         }
       ]
     },
