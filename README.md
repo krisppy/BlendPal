@@ -1,16 +1,18 @@
-# BlendPal (v1.4.9)
+# BlendPal (v1.6.0)
 
 A lightweight, zero-dependency, multi-provider AI assistant for **Blender 4.2 – 5.x** (4.2 LTS, 4.5 LTS, and 5.0–5.3+).  
-Bring your own API key (OpenRouter, OpenAI, Anthropic, Google Gemini, DeepSeek, or Custom endpoints) or run completely free with **Local Ollama**.
+Bring your own API key (OpenRouter, OpenAI, Anthropic, Google AI Studio, DeepSeek, or Custom endpoints), use your existing **Claude Code / OpenAI Codex / Google Gemini CLI subscription**, or run completely free with **Local Ollama**.
 
 > **Download BlendPal (Free / $0+ Pay What You Want):**  
 > **[Get BlendPal on Gumroad](https://pkrisppy.gumroad.com/l/blendpal)**
 
 ## Key Features
 - **Native Quick Pop-up Chat (`Alt + ~` / Grave Accent) & Live Shortcut Finder (`Ctrl + ;`):** Press **`Alt + Grave Accent`** anywhere for Quick Chat, or **`Ctrl + ;`** to search your **actual Blender Preferences keymap** live ($0 instant search across operators, menus, pie menus, and context toggles, with optional AI fallback).
-- **Any AI Provider + Dynamic Recommended Models + Live Cost Tracker:** Fetch live model lists directly from your provider, assign different models per task, pick from tiered per-task **Recommended Models** (auto-updated from GitHub + live **New / Free on OpenRouter** discovery) with live pricing in 1 click, track per-call & session tokens/`$` cost (or `FREE`), and check your live OpenRouter credit balance right inside Add-on Preferences.
+- **Subscription CLI Providers (Claude Code, OpenAI Codex & Google Gemini CLI):** Use your existing Claude Pro/Max, ChatGPT Plus/Pro, or Google Gemini CLI subscription directly in Blender with **$0 API credits** — auto-detected with optional custom CLI path and live streaming.
+- **Any AI Provider + Dynamic Recommended Models + 1-Click Local Ollama Downloads:** Separate saved API keys and model memory per provider, smart live auto-fill (no stale defaults), live-synced **Recommended Models** + **Newest / Free** auto-discovery, 1-click **Local Ollama** model downloads with native progress bar & cancel, and live OpenRouter pricing & credit balance.
 - **Friendly Pal Companion Tone (with Technical Toggle):** Replies in a warm, helpful everyday Blender buddy tone by default for Chat, Explain, and Critique — or switch to **Direct / Technical** in Add-on Preferences (Python & shader generation always stays strictly technical).
-- **3-Layer Official Docs Grounding:** Version-locked `docs.blender.org` system prompt, live local Blender scene/RNA inspection, and optional OpenRouter Web Search verification.
+- **AI Geometry Nodes Builder & `$0` Starter Foundations:** Drop in 5 clean, framed, extensible Geometry Nodes foundations (**Surface Scatter**, **Noise Displace (4D)**, **Radial Instance Array**, **Curve-to-Tube Sweep**, **Mesh-to-Wireframe**) with exposed Modifier sliders and automatic `Instance Object` switching — or describe any custom Geometry Nodes setup for AI to generate with 1-pass auto-fix.
+- **Live Node Tree Auto-Context in Chat + 3-Layer Official Docs Grounding:** Chatting from the Geometry or Shader Node Editor automatically reads your live open node tree (nodes, frames, Modifier inputs, links, and UI degrees) alongside version-locked `docs.blender.org` grounding and optional OpenRouter Web Search.
 - **Live 3D Viewport Vision & Render Critique:** Attach a live 3D Viewport screenshot or active Image Editor Render Result with one click.
 - **1-Click Run Code in Chat:** Execute Python blocks right from chat responses with Undo support and automatic Fix Script on error.
 - **AI Material Suite (Procedural, Multi-Map Auto-PBR, In-Place Edit & Image-to-Material):** Generate procedural shader nodes (with Linear RGB guardrails), Auto-PBR textures with Triplanar Blend, AO Cavity Darkening, and optional Cycles Displacement, edit existing materials in place, or convert any reference photo/viewport snapshot into a procedural material via Vision -> Shader AI.
@@ -23,8 +25,8 @@ Bring your own API key (OpenRouter, OpenAI, Anthropic, Google Gemini, DeepSeek, 
 - **Reference Image & Seamless Texture Generator:** Generate references or flat tileable PBR albedo textures straight into Blender's Image Editor.
 
 ## Installation
-1. Download `blendpal-v1.4.9.zip` from **[Gumroad](https://pkrisppy.gumroad.com/l/blendpal)**.
-2. Go to **Edit -> Preferences -> Add-ons -> Install from Disk...** and select `blendpal-v1.4.9.zip`.
+1. Download `blendpal-v1.6.0.zip` from **[Gumroad](https://pkrisppy.gumroad.com/l/blendpal)**.
+2. Go to **Edit -> Preferences -> Add-ons -> Install from Disk...** and select `blendpal-v1.6.0.zip`.
 3. Enable **3D View: BlendPal**.
 4. Choose your Provider, paste your API key (not needed for Local Ollama), and click **Test Connection & Fetch Models**.
 5. Open the sidebar (`N`) in the 3D Viewport, Image Editor, Node Editor, or Text Editor -> **BlendPal** tab, or press **`Alt + Grave Accent`** (`Alt + ~`) for Quick Chat or **`Ctrl + ;`** for the Live Shortcut Finder.
