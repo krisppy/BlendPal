@@ -345,13 +345,19 @@
       ],
       "code_model": [
         {
-          "tier": "Everyday (Local)",
-          "model": "qwen2.5-coder:14b",
+          "tier": "Lightweight (8-12 GB VRAM)",
+          "model": "qwen2.5-coder:7b",
           "price": "FREE (Local GPU/CPU)",
-          "note": "Best balanced local model for Blender Python & shaders."
+          "note": "Fits comfortably alongside Blender on 8-12 GB VRAM GPUs."
         },
         {
-          "tier": "Complex (Local)",
+          "tier": "Everyday (16 GB+ VRAM)",
+          "model": "qwen2.5-coder:14b",
+          "price": "FREE (Local GPU/CPU)",
+          "note": "Best balanced local model for Blender Python & shaders (needs ~12-16 GB free VRAM)."
+        },
+        {
+          "tier": "Complex (24 GB+ VRAM)",
           "model": "qwen2.5-coder:32b",
           "price": "FREE (Local GPU/CPU)",
           "note": "Higher coding accuracy if you have 24 GB+ VRAM."
