@@ -1,7 +1,10 @@
 # BlendPal (v1.4.8)
 
-A lightweight, zero-dependency, multi-provider AI assistant for **Blender 4.2 – 5.x** (4.2 LTS, 4.5 LTS, and 5.0–5.3+).
+A lightweight, zero-dependency, multi-provider AI assistant for **Blender 4.2 – 5.x** (4.2 LTS, 4.5 LTS, and 5.0–5.3+).  
 Bring your own API key (OpenRouter, OpenAI, Anthropic, Google Gemini, DeepSeek, or Custom endpoints) or run completely free with **Local Ollama**.
+
+> **Download BlendPal (Free / $0+ Pay What You Want):**  
+> **[Get BlendPal on Gumroad](https://pkrisppy.gumroad.com/l/fzfoe)**
 
 ## Key Features
 - **Native Quick Pop-up Chat (`Alt + ~` / Grave Accent) & Live Shortcut Finder (`Ctrl + ;`):** Press **`Alt + Grave Accent`** anywhere for Quick Chat, or **`Ctrl + ;`** to search your **actual Blender Preferences keymap** live ($0 instant search across operators, menus, pie menus, and context toggles, with optional AI fallback).
@@ -19,7 +22,11 @@ Bring your own API key (OpenRouter, OpenAI, Anthropic, Google Gemini, DeepSeek, 
 - **Reference Image & Seamless Texture Generator:** Generate references or flat tileable PBR albedo textures straight into Blender's Image Editor.
 
 ## Installation
-1. Go to **Edit -> Preferences -> Add-ons -> Install from Disk...** and select `blendpal-v1.4.8.zip`.
-2. Enable **3D View: BlendPal**.
-3. Choose your Provider, paste your API key (not needed for Local Ollama), and click **Test Connection & Fetch Models**.
-4. Open the sidebar (`N`) in the 3D Viewport, Image Editor, Node Editor, or Text Editor -> **BlendPal** tab, or press **`Alt + Grave Accent`** (`Alt + ~` / Grave Accent) anywhere to open the Quick Pop-up Chat.
+1. Download `blendpal-v1.4.8.zip` from **[Gumroad](https://pkrisppy.gumroad.com/l/fzfoe)**.
+2. Go to **Edit -> Preferences -> Add-ons -> Install from Disk...** and select `blendpal-v1.4.8.zip`.
+3. Enable **3D View: BlendPal**.
+4. Choose your Provider, paste your API key (not needed for Local Ollama), and click **Test Connection & Fetch Models**.
+5. Open the sidebar (`N`) in the 3D Viewport, Image Editor, Node Editor, or Text Editor -> **BlendPal** tab, or press **`Alt + Grave Accent`** (`Alt + ~`) for Quick Chat or **`Ctrl + ;`** for the Live Shortcut Finder.
+
+## Feedback & Bug Reports
+Found a bug or have a feature request? Open an issue in the **[Issues](https://github.com/krisppy/BlendPal/issues)** tab!
