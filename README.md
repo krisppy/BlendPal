@@ -1,4 +1,4 @@
-# BlendPal (v1.4.8)
+# BlendPal (v1.4.9)
 
 A lightweight, zero-dependency, multi-provider AI assistant for **Blender 4.2 – 5.x** (4.2 LTS, 4.5 LTS, and 5.0–5.3+).  
 Bring your own API key (OpenRouter, OpenAI, Anthropic, Google Gemini, DeepSeek, or Custom endpoints) or run completely free with **Local Ollama**.
@@ -8,7 +8,8 @@ Bring your own API key (OpenRouter, OpenAI, Anthropic, Google Gemini, DeepSeek, 
 
 ## Key Features
 - **Native Quick Pop-up Chat (`Alt + ~` / Grave Accent) & Live Shortcut Finder (`Ctrl + ;`):** Press **`Alt + Grave Accent`** anywhere for Quick Chat, or **`Ctrl + ;`** to search your **actual Blender Preferences keymap** live ($0 instant search across operators, menus, pie menus, and context toggles, with optional AI fallback).
-- **Any AI Provider + Searchable Model Dropdowns + Recommended Models Popup + Live Cost Tracker:** Fetch live model lists directly from your provider, assign different models per task, pick from tiered per-task **Recommended Models** with live pricing in 1 click, track per-call & session tokens/`$` cost (or `FREE`), and check your live OpenRouter credit balance right inside Add-on Preferences.
+- **Any AI Provider + Dynamic Recommended Models + Live Cost Tracker:** Fetch live model lists directly from your provider, assign different models per task, pick from tiered per-task **Recommended Models** (auto-updated from GitHub + live **New / Free on OpenRouter** discovery) with live pricing in 1 click, track per-call & session tokens/`$` cost (or `FREE`), and check your live OpenRouter credit balance right inside Add-on Preferences.
+- **Friendly Pal Companion Tone (with Technical Toggle):** Replies in a warm, helpful everyday Blender buddy tone by default for Chat, Explain, and Critique — or switch to **Direct / Technical** in Add-on Preferences (Python & shader generation always stays strictly technical).
 - **3-Layer Official Docs Grounding:** Version-locked `docs.blender.org` system prompt, live local Blender scene/RNA inspection, and optional OpenRouter Web Search verification.
 - **Live 3D Viewport Vision & Render Critique:** Attach a live 3D Viewport screenshot or active Image Editor Render Result with one click.
 - **1-Click Run Code in Chat:** Execute Python blocks right from chat responses with Undo support and automatic Fix Script on error.
@@ -22,8 +23,8 @@ Bring your own API key (OpenRouter, OpenAI, Anthropic, Google Gemini, DeepSeek, 
 - **Reference Image & Seamless Texture Generator:** Generate references or flat tileable PBR albedo textures straight into Blender's Image Editor.
 
 ## Installation
-1. Download `blendpal-v1.4.8.zip` from **[Gumroad](https://pkrisppy.gumroad.com/l/blendpal)**.
-2. Go to **Edit -> Preferences -> Add-ons -> Install from Disk...** and select `blendpal-v1.4.8.zip`.
+1. Download `blendpal-v1.4.9.zip` from **[Gumroad](https://pkrisppy.gumroad.com/l/blendpal)**.
+2. Go to **Edit -> Preferences -> Add-ons -> Install from Disk...** and select `blendpal-v1.4.9.zip`.
 3. Enable **3D View: BlendPal**.
 4. Choose your Provider, paste your API key (not needed for Local Ollama), and click **Test Connection & Fetch Models**.
 5. Open the sidebar (`N`) in the 3D Viewport, Image Editor, Node Editor, or Text Editor -> **BlendPal** tab, or press **`Alt + Grave Accent`** (`Alt + ~`) for Quick Chat or **`Ctrl + ;`** for the Live Shortcut Finder.

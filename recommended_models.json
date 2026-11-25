@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-25",
+  "providers": {
+    "OPENROUTER": {
+      "chat_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "google/gemini-2.5-flash-lite",
+          "price": "Input: $0.10/M   ·   Output: $0.40/M",
+          "note": "Default pick — ultra-fast & very cheap for daily Q&A, Explain, and Prompt Enhance."
+        },
+        {
+          "tier": "Balanced",
+          "model": "google/gemini-3.8-flash",
+          "price": "Input: $0.83/M   ·   Output: $4.13/M",
+          "note": "Smarter Blender troubleshooting & clearer explanations while staying fast."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "google/gemini-4-hydrogen",
+          "price": "Input: $1.50/M   ·   Output: $7.50/M",
+          "note": "Deep reasoning for tricky Blender 4.2/5.x workflows, rigging, and multi-step guides."
+        }
+      ],
+      "code_model": [
+        {
+          "tier": "Everyday / Best Value",
+          "model": "anthropic/claude-haiku-5.5",
+          "price": "Input: $0.10/M   ·   Output: $0.50/M",
+          "note": "Default pick — ~15x cheaper than heavier models, fast & solid for daily bpy scripts and shaders."
+        },
+        {
+          "tier": "Balanced",
+          "model": "google/gemini-4-hydrogen",
+          "price": "Input: $1.50/M   ·   Output: $7.50/M",
+          "note": "Higher 1-shot accuracy on intricate procedural materials and multi-step Python scripts."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "anthropic/claude-sonnet-5.5",
+          "price": "Input: $2.00/M   ·   Output: $10.0/M",
+          "note": "Best for complex procedural shaders, Geometry Nodes graphs, and heavy refactoring."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "google/gemini-4-neon",
+          "price": "Input: $3.00/M   ·   Output: $15.0/M",
+          "note": "Frontier coding & node-tree reasoning when simpler models need too many retries."
+        }
+      ],
+      "vision_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "google/gemini-2.5-flash-lite",
+          "price": "Input: $0.10/M   ·   Output: $0.40/M",
+          "note": "Default pick — fast & cheap for Viewport Capture, Render Critique, and quick lookups."
+        },
+        {
+          "tier": "Balanced",
+          "model": "google/gemini-3.8-flash",
+          "price": "Input: $0.83/M   ·   Output: $4.13/M",
+          "note": "Better surface, roughness, and lighting detail reading for Image-to-Material."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "google/gemini-4-hydrogen",
+          "price": "Input: $1.50/M   ·   Output: $7.50/M",
+          "note": "High-precision visual critique and complex reference-photo-to-shader breakdowns."
+        }
+      ],
+      "image_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "black-forest-labs/flux-3-image-klein",
+          "price": "Image Out: $1.92/M",
+          "note": "Very fast, low-cost drafts, concept references, and quick texture iterations."
+        },
+        {
+          "tier": "Everyday / Budget",
+          "model": "meta/muse-image",
+          "price": "Image Out: $2.40/M",
+          "note": "Low-cost general concept art and reference images."
+        },
+        {
+          "tier": "Balanced (Default)",
+          "model": "google/gemini-3.1-flash-lite-image",
+          "price": "Input: $0.25/M   ·   Output: $1.50/M   ·   Image Out: $30.0/M",
+          "note": "Default pick — strong prompt adherence and clean seamless PBR albedo textures."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "black-forest-labs/flux-3-image",
+          "price": "Image Out: $9.82/M",
+          "note": "High-detail photorealistic references and hero textures at strong value."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "google/gemini-3.1-flash-image",
+          "price": "Input: $0.50/M   ·   Output: $3.00/M   ·   Image Out: $60.0/M",
+          "note": "Highest prompt fidelity for complex multi-element references and look-dev."
+        }
+      ]
+    },
+    "OPENAI": {
+      "chat_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "gpt-4.1-mini",
+          "price": "Low cost · Fast",
+          "note": "Fast everyday Blender Q&A and explanations."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "gpt-4.1",
+          "price": "Standard tier",
+          "note": "Stronger reasoning for complex Blender questions."
+        }
+      ],
+      "code_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "gpt-4.1-mini",
+          "price": "Low cost · Fast",
+          "note": "Quick Python snippets and simple shaders."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "gpt-4.1",
+          "price": "Standard tier",
+          "note": "Best OpenAI pick for multi-node materials and bpy scripts."
+        }
+      ],
+      "vision_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "gpt-4.1-mini",
+          "price": "Low cost · Fast",
+          "note": "Quick viewport & render critique."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "gpt-4.1",
+          "price": "Standard tier",
+          "note": "Detailed lighting and Image-to-Material analysis."
+        }
+      ],
+      "image_model": [
+        {
+          "tier": "Standard",
+          "model": "gpt-image-1",
+          "price": "Per-image pricing",
+          "note": "High-fidelity reference images and textures."
+        }
+      ]
+    },
+    "ANTHROPIC": {
+      "chat_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "claude-haiku-5.5",
+          "price": "Input: $0.10/M   ·   Output: $0.50/M",
+          "note": "Ultra-fast and cheap for daily Blender Q&A."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "claude-sonnet-4-20250514",
+          "price": "Standard tier",
+          "note": "Deeper explanations and workflow troubleshooting."
+        }
+      ],
+      "code_model": [
+        {
+          "tier": "Everyday / Best Value",
+          "model": "claude-haiku-5.5",
+          "price": "Input: $0.10/M   ·   Output: $0.50/M",
+          "note": "Fast & cost-effective for everyday scripts and procedural shaders."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "claude-sonnet-4-20250514",
+          "price": "Standard tier",
+          "note": "Stronger accuracy for complex Python tools and node trees."
+        }
+      ],
+      "vision_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "claude-haiku-5.5",
+          "price": "Input: $0.10/M   ·   Output: $0.50/M",
+          "note": "Fast viewport and render critique."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "claude-sonnet-4-20250514",
+          "price": "Standard tier",
+          "note": "Detailed visual critique and Image-to-Material."
+        }
+      ]
+    },
+    "GEMINI": {
+      "chat_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "gemini-2.5-flash",
+          "price": "Low cost · Fast",
+          "note": "Fast daily Blender Q&A and explanations."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "gemini-4-hydrogen",
+          "price": "Input: $1.50/M   ·   Output: $7.50/M",
+          "note": "Stronger reasoning for complex Blender workflows."
+        }
+      ],
+      "code_model": [
+        {
+          "tier": "Everyday / Balanced",
+          "model": "gemini-4-hydrogen",
+          "price": "Input: $1.50/M   ·   Output: $7.50/M",
+          "note": "Fast & capable for bpy scripting and shader generation."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "gemini-4-neon",
+          "price": "Input: $3.00/M   ·   Output: $15.0/M",
+          "note": "Deep coding & complex node-tree generation."
+        }
+      ],
+      "vision_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "gemini-2.5-flash",
+          "price": "Low cost · Fast",
+          "note": "Fast viewport capture & render critique."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "gemini-4-hydrogen",
+          "price": "Input: $1.50/M   ·   Output: $7.50/M",
+          "note": "High-detail visual & material breakdown."
+        }
+      ],
+      "image_model": [
+        {
+          "tier": "Standard",
+          "model": "imagen-3.0-generate-002",
+          "price": "Per-image pricing",
+          "note": "Direct Gemini Imagen generation."
+        }
+      ]
+    },
+    "DEEPSEEK": {
+      "chat_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "deepseek-chat",
+          "price": "Low cost",
+          "note": "Fast general Blender Q&A."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "deepseek-reasoner",
+          "price": "Reasoning tier",
+          "note": "Step-by-step troubleshooting for harder problems."
+        }
+      ],
+      "code_model": [
+        {
+          "tier": "Everyday / Budget",
+          "model": "deepseek-chat",
+          "price": "Low cost",
+          "note": "Good everyday Python & shader generation."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "deepseek-reasoner",
+          "price": "Reasoning tier",
+          "note": "Stronger logic for complex scripts and node math."
+        }
+      ]
+    },
+    "OLLAMA": {
+      "chat_model": [
+        {
+          "tier": "Everyday (Local)",
+          "model": "qwen2.5:14b",
+          "price": "FREE (Local GPU/CPU)",
+          "note": "Solid local general assistant."
+        },
+        {
+          "tier": "Lightweight (Local)",
+          "model": "qwen2.5:7b",
+          "price": "FREE (Local GPU/CPU)",
+          "note": "Faster on 8 GB VRAM GPUs."
+        }
+      ],
+      "code_model": [
+        {
+          "tier": "Everyday (Local)",
+          "model": "qwen2.5-coder:14b",
+          "price": "FREE (Local GPU/CPU)",
+          "note": "Best balanced local model for Blender Python & shaders."
+        },
+        {
+          "tier": "Complex (Local)",
+          "model": "qwen2.5-coder:32b",
+          "price": "FREE (Local GPU/CPU)",
+          "note": "Higher coding accuracy if you have 24 GB+ VRAM."
+        }
+      ],
+      "vision_model": [
+        {
+          "tier": "Everyday (Local)",
+          "model": "llava:13b",
+          "price": "FREE (Local GPU/CPU)",
+          "note": "Local viewport & render image analysis."
+        }
+      ]
+    }
+  }
+}
