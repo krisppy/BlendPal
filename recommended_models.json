@@ -176,42 +176,54 @@
       "chat_model": [
         {
           "tier": "Everyday / Budget",
-          "model": "claude-haiku-5.5",
+          "model": "claude-haiku-5-5",
           "price": "Input: $0.10/M   ·   Output: $0.50/M",
-          "note": "Ultra-fast and cheap for daily Blender Q&A."
+          "note": "Ultra-fast and cheap for daily Blender Q&A and explanations."
+        },
+        {
+          "tier": "Balanced",
+          "model": "claude-sonnet-5-5",
+          "price": "Input: $2.00/M   ·   Output: $10.0/M",
+          "note": "Deeper explanations and Blender workflow troubleshooting."
         },
         {
           "tier": "Complex / Pro",
-          "model": "claude-sonnet-4-20250514",
-          "price": "Standard tier",
-          "note": "Deeper explanations and workflow troubleshooting."
+          "model": "claude-opus-5-5",
+          "price": "Flagship tier",
+          "note": "Highest reasoning depth for complex Blender workflows."
         }
       ],
       "code_model": [
         {
           "tier": "Everyday / Best Value",
-          "model": "claude-haiku-5.5",
+          "model": "claude-haiku-5-5",
           "price": "Input: $0.10/M   ·   Output: $0.50/M",
           "note": "Fast & cost-effective for everyday scripts and procedural shaders."
         },
         {
+          "tier": "Balanced",
+          "model": "claude-sonnet-5-5",
+          "price": "Input: $2.00/M   ·   Output: $10.0/M",
+          "note": "Strong accuracy for complex Python tools, shaders, and Geometry Nodes."
+        },
+        {
           "tier": "Complex / Pro",
-          "model": "claude-sonnet-4-20250514",
-          "price": "Standard tier",
-          "note": "Stronger accuracy for complex Python tools and node trees."
+          "model": "claude-opus-5-5",
+          "price": "Flagship tier",
+          "note": "Frontier coding accuracy for heavy node trees and refactoring."
         }
       ],
       "vision_model": [
         {
           "tier": "Everyday / Budget",
-          "model": "claude-haiku-5.5",
+          "model": "claude-haiku-5-5",
           "price": "Input: $0.10/M   ·   Output: $0.50/M",
           "note": "Fast viewport and render critique."
         },
         {
-          "tier": "Complex / Pro",
-          "model": "claude-sonnet-4-20250514",
-          "price": "Standard tier",
+          "tier": "Balanced",
+          "model": "claude-sonnet-5-5",
+          "price": "Input: $2.00/M   ·   Output: $10.0/M",
           "note": "Detailed visual critique and Image-to-Material."
         }
       ]
@@ -225,6 +237,12 @@
           "note": "Fast daily Blender Q&A and explanations."
         },
         {
+          "tier": "Balanced",
+          "model": "gemini-3.8-flash",
+          "price": "Input: $0.83/M   ·   Output: $4.13/M",
+          "note": "Smarter Blender troubleshooting while staying fast."
+        },
+        {
           "tier": "Complex / Pro",
           "model": "gemini-4-hydrogen",
           "price": "Input: $1.50/M   ·   Output: $7.50/M",
@@ -236,7 +254,7 @@
           "tier": "Everyday / Balanced",
           "model": "gemini-4-hydrogen",
           "price": "Input: $1.50/M   ·   Output: $7.50/M",
-          "note": "Fast & capable for bpy scripting and shader generation."
+          "note": "Fast & capable for bpy scripting, shaders, and Geometry Nodes."
         },
         {
           "tier": "Complex / Pro",
@@ -253,6 +271,12 @@
           "note": "Fast viewport capture & render critique."
         },
         {
+          "tier": "Balanced",
+          "model": "gemini-3.8-flash",
+          "price": "Input: $0.83/M   ·   Output: $4.13/M",
+          "note": "Better surface and lighting reading for Image-to-Material."
+        },
+        {
           "tier": "Complex / Pro",
           "model": "gemini-4-hydrogen",
           "price": "Input: $1.50/M   ·   Output: $7.50/M",
@@ -261,10 +285,16 @@
       ],
       "image_model": [
         {
-          "tier": "Standard",
-          "model": "imagen-3.0-generate-002",
-          "price": "Per-image pricing",
-          "note": "Direct Gemini Imagen generation."
+          "tier": "Balanced (Default)",
+          "model": "gemini-3.1-flash-lite-image",
+          "price": "Fast · Low cost",
+          "note": "Strong prompt adherence and clean seamless PBR albedo textures."
+        },
+        {
+          "tier": "Complex / Pro",
+          "model": "gemini-3.1-flash-image",
+          "price": "Higher fidelity",
+          "note": "Highest prompt fidelity for detailed concept references and look-dev."
         }
       ]
     },
