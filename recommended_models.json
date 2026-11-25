@@ -365,10 +365,22 @@
       ],
       "vision_model": [
         {
-          "tier": "Everyday (Local)",
+          "tier": "Lightweight (8-12 GB VRAM)",
+          "model": "llava:7b",
+          "price": "FREE (Local GPU/CPU)",
+          "note": "Fast local viewport & render image analysis on 8-12 GB VRAM GPUs."
+        },
+        {
+          "tier": "Balanced (10-12 GB VRAM)",
+          "model": "qwen2.5vl:7b",
+          "price": "FREE (Local GPU/CPU)",
+          "note": "Sharper visual detail & Image-to-Material analysis while staying 7B-sized."
+        },
+        {
+          "tier": "Larger (16 GB+ VRAM)",
           "model": "llava:13b",
           "price": "FREE (Local GPU/CPU)",
-          "note": "Local viewport & render image analysis."
+          "note": "Larger local vision model (needs ~12-16 GB free VRAM alongside Blender)."
         }
       ]
     }
