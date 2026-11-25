@@ -4,7 +4,7 @@ A lightweight, zero-dependency, multi-provider AI assistant for **Blender 4.2 â€
 Bring your own API key (OpenRouter, OpenAI, Anthropic, Google Gemini, DeepSeek, or Custom endpoints) or run completely free with **Local Ollama**.
 
 > **Download BlendPal (Free / $0+ Pay What You Want):**  
-> **[Get BlendPal on Gumroad](https://pkrisppy.gumroad.com/l/fzfoe)**
+> **[Get BlendPal on Gumroad](https://pkrisppy.gumroad.com/l/blendpal)**
 
 ## Key Features
 - **Native Quick Pop-up Chat (`Alt + ~` / Grave Accent) & Live Shortcut Finder (`Ctrl + ;`):** Press **`Alt + Grave Accent`** anywhere for Quick Chat, or **`Ctrl + ;`** to search your **actual Blender Preferences keymap** live ($0 instant search across operators, menus, pie menus, and context toggles, with optional AI fallback).
@@ -22,7 +22,7 @@ Bring your own API key (OpenRouter, OpenAI, Anthropic, Google Gemini, DeepSeek, 
 - **Reference Image & Seamless Texture Generator:** Generate references or flat tileable PBR albedo textures straight into Blender's Image Editor.
 
 ## Installation
-1. Download `blendpal-v1.4.8.zip` from **[Gumroad](https://pkrisppy.gumroad.com/l/fzfoe)**.
+1. Download `blendpal-v1.4.8.zip` from **[Gumroad](https://pkrisppy.gumroad.com/l/blendpal)**.
 2. Go to **Edit -> Preferences -> Add-ons -> Install from Disk...** and select `blendpal-v1.4.8.zip`.
 3. Enable **3D View: BlendPal**.
 4. Choose your Provider, paste your API key (not needed for Local Ollama), and click **Test Connection & Fetch Models**.
