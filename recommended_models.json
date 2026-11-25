@@ -106,51 +106,69 @@
       "chat_model": [
         {
           "tier": "Everyday / Budget",
-          "model": "gpt-4.1-mini",
+          "model": "gpt-5-mini",
           "price": "Low cost · Fast",
-          "note": "Fast everyday Blender Q&A and explanations."
+          "note": "Fast, capable everyday Blender Q&A, Explain, and Prompt Enhance."
+        },
+        {
+          "tier": "Balanced",
+          "model": "gpt-6.2-sol",
+          "price": "Input: $2.00/M   ·   Output: $10.0/M",
+          "note": "Strong modern reasoning for Blender 4.2/5.x workflows and troubleshooting."
         },
         {
           "tier": "Complex / Pro",
-          "model": "gpt-4.1",
-          "price": "Standard tier",
-          "note": "Stronger reasoning for complex Blender questions."
+          "model": "gpt-6.2-astra",
+          "price": "Input: $8.00/M   ·   Output: $40.0/M",
+          "note": "Flagship OpenAI reasoning for deep multi-step rigging and workflow problems."
         }
       ],
       "code_model": [
         {
           "tier": "Everyday / Budget",
-          "model": "gpt-4.1-mini",
+          "model": "gpt-5-mini",
           "price": "Low cost · Fast",
-          "note": "Quick Python snippets and simple shaders."
+          "note": "Quick Python snippets, simple shaders, and fast iterations."
+        },
+        {
+          "tier": "Balanced",
+          "model": "gpt-6.2-sol",
+          "price": "Input: $2.00/M   ·   Output: $10.0/M",
+          "note": "Great accuracy on procedural materials, Geometry Nodes, and bpy scripts."
         },
         {
           "tier": "Complex / Pro",
-          "model": "gpt-4.1",
-          "price": "Standard tier",
-          "note": "Best OpenAI pick for multi-node materials and bpy scripts."
+          "model": "gpt-6.2-astra",
+          "price": "Input: $8.00/M   ·   Output: $40.0/M",
+          "note": "Frontier coding accuracy for intricate node graphs and complex scripts."
         }
       ],
       "vision_model": [
         {
           "tier": "Everyday / Budget",
-          "model": "gpt-4.1-mini",
+          "model": "gpt-5-mini",
           "price": "Low cost · Fast",
-          "note": "Quick viewport & render critique."
+          "note": "Fast viewport capture & render critique."
         },
         {
-          "tier": "Complex / Pro",
-          "model": "gpt-4.1",
-          "price": "Standard tier",
-          "note": "Detailed lighting and Image-to-Material analysis."
+          "tier": "Balanced",
+          "model": "gpt-6.2-sol",
+          "price": "Input: $2.00/M   ·   Output: $10.0/M",
+          "note": "Detailed lighting, composition, and Image-to-Material analysis."
         }
       ],
       "image_model": [
         {
+          "tier": "Balanced",
+          "model": "gpt-image-2.6-sunburst",
+          "price": "Image Out: $8.00/M",
+          "note": "Latest OpenAI image model for crisp concept references and textures."
+        },
+        {
           "tier": "Standard",
           "model": "gpt-image-1",
           "price": "Per-image pricing",
-          "note": "High-fidelity reference images and textures."
+          "note": "Reliable reference images and seamless textures."
         }
       ]
     },
