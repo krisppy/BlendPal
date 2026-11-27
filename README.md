@@ -1,35 +1,60 @@
-# BlendPal (v1.6.0)
+# BlendPal & BlendPal Pro (v2.0.0)
 
-A lightweight, zero-dependency, multi-provider AI assistant for **Blender 4.2 – 5.x** (4.2 LTS, 4.5 LTS, and 5.0–5.3+).  
-Bring your own API key (OpenRouter, OpenAI, Anthropic, Google AI Studio, DeepSeek, or Custom endpoints), use your existing **Claude Code / OpenAI Codex / Google Gemini CLI subscription**, or run completely free with **Local Ollama**.
+A lightweight, zero-dependency, multi-provider AI assistant and studio suite for **Blender 4.2 – 5.x** (4.2 LTS, 4.5 LTS, and 5.0–5.3+).  
+Bring your own API key (Google AI Studio, OpenRouter, OpenAI, Anthropic, DeepSeek, or Custom endpoints), use your existing **Google Antigravity CLI (`agy`)**, **Claude Code**, or **OpenAI Codex** subscription at **$0 extra API cost**, or run 100% free offline with **Local Ollama**.
 
-> **Download BlendPal (Free / $0+ Pay What You Want):**  
-> **[Get BlendPal on Gumroad](https://pkrisppy.gumroad.com/l/blendpal)**
+> **Download BlendPal (Standard — Free / $0+ Pay What You Want):**  
+> **[Get BlendPal v2.0.0 on Gumroad](https://pkrisppy.gumroad.com/l/blendpal)**
+>
+> **Upgrade to BlendPal Pro (AI Studio Suite — One-Time Purchase):**  
+> **[Get BlendPal Pro v2.0.0 on Gumroad](https://pkrisppy.gumroad.com/l/blendpal-pro)** *(Launch Early-Bird 25% Off with code `EARLYBIRD25` through Dec 25, 2026)*
 
-## Key Features
-- **Native Quick Pop-up Chat (`Alt + ~` / Grave Accent) & Live Shortcut Finder (`Ctrl + ;`):** Press **`Alt + Grave Accent`** anywhere for Quick Chat, or **`Ctrl + ;`** to search your **actual Blender Preferences keymap** live ($0 instant search across operators, menus, pie menus, and context toggles, with optional AI fallback).
-- **Subscription CLI Providers (Claude Code, OpenAI Codex & Google Gemini CLI):** Use your existing Claude Pro/Max, ChatGPT Plus/Pro, or Google Gemini CLI subscription directly in Blender with **$0 API credits** — auto-detected with optional custom CLI path and live streaming.
-- **Any AI Provider + Dynamic Recommended Models + 1-Click Local Ollama Downloads:** Separate saved API keys and model memory per provider, smart live auto-fill (no stale defaults), live-synced **Recommended Models** + **Newest / Free** auto-discovery, 1-click **Local Ollama** model downloads with native progress bar & cancel, and live OpenRouter pricing & credit balance.
-- **Friendly Pal Companion Tone (with Technical Toggle):** Replies in a warm, helpful everyday Blender buddy tone by default for Chat, Explain, and Critique — or switch to **Direct / Technical** in Add-on Preferences (Python & shader generation always stays strictly technical).
-- **AI Geometry Nodes Builder & `$0` Starter Foundations:** Drop in 5 clean, framed, extensible Geometry Nodes foundations (**Surface Scatter**, **Noise Displace (4D)**, **Radial Instance Array**, **Curve-to-Tube Sweep**, **Mesh-to-Wireframe**) with exposed Modifier sliders and automatic `Instance Object` switching — or describe any custom Geometry Nodes setup for AI to generate with 1-pass auto-fix.
-- **Live Node Tree Auto-Context in Chat + 3-Layer Official Docs Grounding:** Chatting from the Geometry or Shader Node Editor automatically reads your live open node tree (nodes, frames, Modifier inputs, links, and UI degrees) alongside version-locked `docs.blender.org` grounding and optional OpenRouter Web Search.
-- **Live 3D Viewport Vision & Render Critique:** Attach a live 3D Viewport screenshot or active Image Editor Render Result with one click.
-- **1-Click Run Code in Chat:** Execute Python blocks right from chat responses with Undo support and automatic Fix Script on error.
-- **AI Material Suite (Procedural, Multi-Map Auto-PBR, In-Place Edit & Image-to-Material):** Generate procedural shader nodes (with Linear RGB guardrails), Auto-PBR textures with Triplanar Blend, AO Cavity Darkening, and optional Cycles Displacement, edit existing materials in place, or convert any reference photo/viewport snapshot into a procedural material via Vision -> Shader AI.
-- **AI World / Environment Builder:** Apply instant `$0` World presets (Nishita Golden Hour, Overcast Studio Dome, Dark Product Studio, Twilight Volumetric Mist) or describe any custom World Shader for AI to build.
-- **One-Click Studio Lighting Rig:** Auto-scaled 3-Point Studio, Product Rim, Overhead Softbox, and Studio World + Fill rigs aimed at your selection, with optional cyclorama backdrop.
-- **Instant Local Scene Health Audit ($0 API cost):** Scan for unapplied/negative scale, missing or unpacked textures, heavy modifiers, orphan datablocks, and render/AgX settings with 1-click local fixes and optional AI advice.
-- **Right-Click Explain + Full Node Tree Explainer:** Right-click any property, operator, modifier, or node — or explain an entire Shader / Geometry Node graph in one click.
-- **Outliner Organizer & Batch Object Renamer:** Auto-sort objects into collections or standardize messy object names with full Undo.
-- **Python Script Studio & Presets:** Generate, Edit, Fix, Test, and save reusable Script Presets.
-- **Reference Image & Seamless Texture Generator:** Generate references or flat tileable PBR albedo textures straight into Blender's Image Editor.
+---
+
+## What's New in v2.0.0
+- **Google Antigravity CLI (`agy`) + Live Quota Meter:** Connect your Google subscription at **$0 API cost** with dynamic model discovery, streaming, Vision, built-in image generation, and a live **5-Hour & Weekly Quota Meter** (Gemini & Claude/GPT pools with reset countdowns) right in Preferences and the Sidebar Header.
+- **Native Vision Across All 3 Subscription CLIs:** Claude Code CLI now supports native Vision alongside Antigravity CLI and OpenAI Codex CLI.
+- **Local `$0` PBR Normal & Height Map Baker:** Instantly bakes tileable Normal and Displacement maps locally inside Blender (powered by bundled `numpy`) for **AI Material Auto-PBR** and **Seamless Texture Generator**.
+- **Backup Image Generator Routing:** Route image & texture generation to **Antigravity Built-in ($0)**, **OpenRouter**, **OpenAI**, or **Google AI Studio** while reusing your saved API keys.
+- **Live-Refreshing Pop-up Chat & "Roll 3 Ideas":** Smooth live-streaming Quick Pop-up Chat (`Alt + ~`) and scene-aware 3-idea brainstorming cards across all AI prompt dialogs.
+- **Cycles Rendered Viewport Capture + Auto Overlay Hiding:** Clean, overlay-free viewport snapshots in Cycles Rendered mode for Viewport Vision & Render Critique.
+- **Illustrated v2.0 User's Manual (PDF):** Included with both editions (24 screenshots, synced 1:1 with v2.0.0).
+
+---
+
+## BlendPal vs. BlendPal Pro
+
+### 1. Core AI Assistant & Everyday Tools (Included in Both)
+| Capability | BlendPal | BlendPal Pro |
+| :--- | :---: | :---: |
+| Multi-Provider BYOK (Google AI Studio, OpenRouter, OpenAI, Anthropic, DeepSeek, Custom) + 1-Click Local Ollama | Yes | Yes |
+| `$0` API-Cost Subscription CLIs (Google Antigravity + Quota Meter, Claude Code, OpenAI Codex) | Yes | Yes |
+| Quick Pop-up Chat (`Alt + ~`), Live Shortcut Finder (`Ctrl + ;`) & "Roll 3 Ideas" Companion | Yes | Yes |
+| Live 3D Viewport Vision, Render Critique & Live Node Tree Auto-Context (Shader & GeoNodes) | Yes | Yes |
+| AI Material Suite (Procedural, Auto-PBR + Local Normal/Height Baker, In-Place Edit, Img → Mat) | Yes | Yes |
+| AI World Builder, AI Geometry Nodes Builder (+ 5 Starter Foundations) & Python Script Studio | Yes | Yes |
+| Instant Local Scene Health Audit (`$0`), Outliner Organizer, Batch Renamer & Right-Click Explain | Yes | Yes |
+| Illustrated v2.0 User's Manual (PDF) + Ongoing Blender 4.2 – 5.x Updates | Yes | Yes |
+
+### 2. Pro AI Workflows & 130+ Studio Presets (BlendPal Pro)
+| Pro Studio Capability | BlendPal | BlendPal Pro |
+| :--- | :---: | :---: |
+| **AI Image-to-Lighting + Refine Lighting Match (Vision Feedback Loop)** | — | **Yes** |
+| **Studio Lighting Library + Live Rig Controller** *(360° Orbit, EV, Kelvin, Hue Shift, Solo/Mute)* | 4 Starters | **50 Pro Rigs (5 Categories) + Live Controller** |
+| **AI Image-to-Compositor Look-Dev + Refine Look + Live A/B Controller** | — | **Yes** |
+| **Compositor Look-Dev Suite** *(Filmic, Analog Film, Cinema, Product, Stylized)* | — | **40 Pro Looks (5 Categories) + Live A/B** |
+| **UV-Free Procedural Materials** *(Metals, Product, Archviz, Glass/Liquids, Stylized)* | — | **40 Pro Shaders (5 Categories)** |
+| **AI Auto Character Posing (Text & Reference Photo)** *(Rigify IK, Mixamo, Humanoid, Quadruped, Bird + Mannequins, Blend, Mirror, Keyframe & Vision Refine)* | — | **Yes** |
+| **AI Self-Verifying Geometry Nodes Agent + Live Controller** *(Depsgraph Audit, Multi-Pass Auto-Fix, Vision QA & Blender 5.3+ Sliders)* | — | **Yes** |
+
+---
 
 ## Installation
-1. Download `blendpal-v1.6.0.zip` from **[Gumroad](https://pkrisppy.gumroad.com/l/blendpal)**.
-2. Go to **Edit -> Preferences -> Add-ons -> Install from Disk...** and select `blendpal-v1.6.0.zip`.
-3. Enable **3D View: BlendPal**.
-4. Choose your Provider, paste your API key (not needed for Local Ollama), and click **Test Connection & Fetch Models**.
-5. Open the sidebar (`N`) in the 3D Viewport, Image Editor, Node Editor, or Text Editor -> **BlendPal** tab, or press **`Alt + Grave Accent`** (`Alt + ~`) for Quick Chat or **`Ctrl + ;`** for the Live Shortcut Finder.
+1. Download `blendpal-v2.0.0.zip` ([Standard](https://pkrisppy.gumroad.com/l/blendpal)) or `blendpal-pro-v2.0.0.zip` ([Pro](https://pkrisppy.gumroad.com/l/blendpal-pro)) from Gumroad.
+2. In Blender, go to **Edit → Preferences → Add-ons → Install from Disk...** and select the `.zip` file.
+3. Enable **BlendPal** (or **BlendPal Pro**).
+4. Choose your **AI Service** (BYOK API key, `$0` Subscription CLI, or Local Ollama) and click **Connect & Load Models**.
+5. Open the sidebar (`N`) in the 3D Viewport, Image Editor, Node Editor, or Text Editor → **BlendPal** tab — or press **`Alt + ~`** (Grave Accent) for Quick Chat or **`Ctrl + ;`** for the Live Shortcut Finder.
 
 ## Feedback & Bug Reports
 Found a bug or have a feature request? Open an issue in the **[Issues](https://github.com/krisppy/BlendPal/issues)** tab!

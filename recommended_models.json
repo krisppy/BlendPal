@@ -383,6 +383,70 @@
           "note": "Larger local vision model (needs ~12-16 GB free VRAM alongside Blender)."
         }
       ]
+    },
+    "ANTIGRAVITY_CLI": {
+      "chat_model": [
+        {
+          "tier": "Fast (Subscription)",
+          "model": "gemini-3.8-flash-medium",
+          "price": "Included in Antigravity plan",
+          "note": "Fast everyday Blender Q&A, Explain, and Prompt Enhance via agy CLI."
+        },
+        {
+          "tier": "Balanced (Subscription)",
+          "model": "gemini-4-hydrogen-medium",
+          "price": "Included in Antigravity plan",
+          "note": "Stronger reasoning for Blender troubleshooting and workflows."
+        },
+        {
+          "tier": "Complex (Subscription)",
+          "model": "gemini-4-neon-medium",
+          "price": "Included in Antigravity plan",
+          "note": "Frontier reasoning for complex rigs, lighting, and multi-step guides."
+        }
+      ],
+      "code_model": [
+        {
+          "tier": "Balanced (Subscription)",
+          "model": "gemini-4-hydrogen-medium",
+          "price": "Included in Antigravity plan",
+          "note": "Fast & accurate for Python bpy scripts, shaders, and Geometry Nodes."
+        },
+        {
+          "tier": "Complex (Subscription)",
+          "model": "gemini-4-neon-medium",
+          "price": "Included in Antigravity plan",
+          "note": "Frontier coding & node-tree reasoning for complex GeoNodes & posing."
+        },
+        {
+          "tier": "Complex (Subscription)",
+          "model": "claude-sonnet-5-5-medium",
+          "price": "Included in Antigravity plan",
+          "note": "Claude Sonnet 5.5 via your Antigravity subscription."
+        }
+      ],
+      "vision_model": [
+        {
+          "tier": "Fast (Subscription)",
+          "model": "gemini-3.8-flash-medium",
+          "price": "Included in Antigravity plan",
+          "note": "Fast Viewport Capture, Render Critique, and Image-to-Material via agy."
+        },
+        {
+          "tier": "Complex (Subscription)",
+          "model": "gemini-4-hydrogen-medium",
+          "price": "Included in Antigravity plan",
+          "note": "High-precision reference analysis for Img->Light, Img->Look & Img->Pose."
+        }
+      ],
+      "image_model": [
+        {
+          "tier": "Built-in (Subscription)",
+          "model": "antigravity-image-generator",
+          "price": "Included in Antigravity plan",
+          "note": "Generates images & seamless textures via Antigravity's built-in image-generator subagent ($0 extra API cost)."
+        }
+      ]
     }
   }
 }
